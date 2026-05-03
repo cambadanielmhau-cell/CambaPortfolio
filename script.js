@@ -1,5 +1,4 @@
-```javascript
-// Mobile navigation toggle
+﻿```javascript
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelector('.nav-links');
 
@@ -13,7 +12,6 @@ navLinks?.querySelectorAll('a').forEach(link => {
   });
 });
 
-// Smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
@@ -27,7 +25,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Skill animation on scroll
 window.addEventListener('scroll', () => {
   const skills = document.querySelectorAll('.progress-bar');
 
@@ -43,7 +40,6 @@ window.addEventListener('scroll', () => {
   });
 });
 
-// Contact form validation
 const contactForm = document.getElementById('contactForm');
 
 if (contactForm) {
@@ -57,3 +53,4 @@ if (contactForm) {
   });
 }
 ```
+
